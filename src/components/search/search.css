@@ -1,0 +1,15 @@
+.search-container{
+    width: 1556px;
+    height: 191px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container .toggle{
+    width: 404px;
+    height: 63px;
+    padding: 4px;
+    background-color: #ffffff;
+}

@@ -1,0 +1,74 @@
+.nav{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.acura-nav-container{
+    width: 100%;
+    padding: 16px 192px;
+    display: grid;
+    background-color: #E2E8F0;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-around;
+    box-shadow: 1px 1px 4px grey;
+    border-bottom: 1px solid white;
+}
+.acura-nav-container .logo-container{
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 30px;
+}
+.acura-nav-container .logo-container img{
+    width: 125px;
+    height: 30px;
+}
+.acura-nav-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 729px;
+    height: 51px;
+    max-width: 600px;
+}
+.acura-nav-container ul li{
+    font-size: 14px;
+    line-height: 150%;
+    color: #1e293b;
+}
+.acura-nav-container ul  #active{
+    color: #334C96;
+    font-weight: 500;
+    border-bottom: 2px solid #334C96;
+}
+.acura-nav-container .btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 212px;
+}
+.acura-nav-container .btn-container button{
+    width: 82px;
+    height: 41px;
+    background-color: #334C96;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+.acura-nav-container .btn-container div{
+    display: flex;
+}
+.acura-nav-container .btn-container div .shopping-cart{
+    width: 20.04px;
+    height: 18.75;
+}
+.acura-nav-container .btn-container div button{
+    width: 18px;
+    height: 18px;
+    color: white;
+    font-size: 9px;
+    margin-top: -8px;
+    margin-left: -5px;
+}
