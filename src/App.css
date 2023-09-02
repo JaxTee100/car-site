@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0;
 }
-
+body{
+  padding: 40px;
+}
 li{
   list-style: none;
   

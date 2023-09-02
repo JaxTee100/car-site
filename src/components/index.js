@@ -8,5 +8,7 @@ export {default as Honda2Navbar} from './navbars/Honda/Honda2'
 //search
 export {default as SearchBar} from './search/Search'
 
+//price-card
+export {default as PriceCard}  from './price-card/PriceCard'
 
 

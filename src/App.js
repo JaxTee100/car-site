@@ -1,11 +1,11 @@
-
+import { PriceCard } from './components';
 import './App.css';
-import { SearchBar } from './components';
 
 function App() {
   return (
     <div className="App">
-      <SearchBar />
+      <PriceCard />
+      
     </div>
   );
 }
