@@ -10,6 +10,7 @@ const Honda2 = () => {
         <div className='honda2-nav-container'>
             <div className='logo-container'>
                 <img src={HondaLogo} alt="honda-logo"/>
+                <p>Northern Honda</p>
 
             </div>
             <ul>

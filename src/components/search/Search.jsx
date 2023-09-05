@@ -1,14 +1,22 @@
 import React, { useState } from 'react'
 import './search.css'
 import {BsCalendarDate} from 'react-icons/bs'
-import {AiOutlineRight, AiOutlineCar, AiOutlineInfoCircle} from 'react-icons/ai'
+import {AiOutlineRight, AiOutlineDown, AiOutlineCar, AiOutlineInfoCircle} from 'react-icons/ai'
 import {LuSettings2} from 'react-icons/lu'
 import {PiPokerChipDuotone} from 'react-icons/pi'
 import {BiMap} from 'react-icons/bi'
 
 const Search = () => {
+  //toggle states
   const [vehicle, setVehicle] = useState(true)
-  const [tires, setTires] = useState(false)
+  const [tires, setTires] = useState(false);
+
+  //dropdown states
+  const [dropDown, setDropDown]  = useState(false)
+
+
+
+  //functions for toggle buttons
   const showVehicle = () =>{
     setVehicle(true)
     setTires(false)
@@ -16,6 +24,11 @@ const Search = () => {
   const showTire = () =>{
     setVehicle(false)
     setTires(true)
+  }
+
+  //functions for dropdown
+  const dropdown = () =>{
+    setDropDown(!dropDown)
   }
   return (
     <div className='search-container'>
@@ -26,34 +39,49 @@ const Search = () => {
       {
         vehicle && 
         <div className='vehicle'>
-        <div className='vehicle-details'>
+          <div className='vehicle-details'>
+            <div className='year'>
+              <BsCalendarDate size={18}/>
+              <input type='text' placeholder='Select Year'/>
+              {
+                dropDown ? <AiOutlineDown size={14} onClick={dropdown} /> : <AiOutlineRight size={14} onClick={dropdown}/>
+              }
+              
+            </div>
+            <div className='year'>
+              <LuSettings2 size={18}/>
+              <input type='text' placeholder='Select Maker'/>
+              {
+                dropDown ? <AiOutlineDown size={14} onClick={dropdown} /> : <AiOutlineRight size={14} onClick={dropdown}/>
+              }
+              
+            </div>
+            <div className='year'>
+              <AiOutlineCar size={18}/>
+              <input type='text' placeholder='Select Model'/>
+              {
+                dropDown ? <AiOutlineDown size={14} onClick={dropdown} /> : <AiOutlineRight size={14} onClick={dropdown}/>
+              }
+              
+            </div>
+            <div className='year'>
+              <PiPokerChipDuotone size={18}/>
+              <input type='text' placeholder='Select Product Type'/>
+              {
+                dropDown ? <AiOutlineDown size={14} onClick={dropdown} /> : <AiOutlineRight size={14} onClick={dropdown}/>
+              }
+              
+            </div>
+            <div className='year'>
+              <BiMap size={18}/>
+              <input type='text' placeholder='Enter Zip Code'/>
+              
+            </div>
+            
+            
+          </div>
 
-          <div className='year common-style'>
-            <div id='year-icon' className='common-icon-style'><BsCalendarDate id='icon1' /></div>
-            <p>Select Year</p>
-            <div className='arrow-icon'><AiOutlineRight className='arrow-icons'/></div>
-          </div>
-          <div className='maker common-style'>
-            <div id='maker-icon' className='common-icon-style'><LuSettings2 id='icon3'/></div>
-            <p>Select Maker</p>
-            <div className='arrow-icon'><AiOutlineRight className='arrow-icons'/></div>
-          </div>
-          <div className='model common-style'>
-            <div id='model-icon' className='common-icon-style'><AiOutlineCar id='icon5'/></div>
-            <p>Select Model</p>
-            <div className='arrow-icon'><AiOutlineRight className='arrow-icons'/></div>
-          </div>
-          <div className='product common-style'>
-            <div id='product-icon' className='common-icon-style'><PiPokerChipDuotone id='icon7'/></div>
-            <p>Select Product Type</p>
-            <div className='arrow-icon'><AiOutlineRight className='arrow-icons'/></div>
-          </div>
-          <div className='zipcode common-style'>
-            <div id='zip-icon' className='common-icon-style'><BiMap id='icon9'/></div>
-            <p>Enter Zip Code</p>
-          </div>
-        </div>
-        <button>View Results</button>
+          <button>View Results</button>
       </div>
       }
       {

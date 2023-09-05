@@ -1,0 +1,20 @@
+.landing-container{
+    width: 1920px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.landing-container .nav-div{
+    width: 1920px;
+    height: 83px;
+}
+.landing-container .body-div{
+    height: 665px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.landing-container .search-div{
+    height: 191px;
+    margin: 0 auto;
+}

@@ -1,0 +1,6 @@
+export {default as HondaPage} from '../pages/Honda/Honda-Landing-Page/HondaLandingSection'
+export {default as TiresPage} from '../pages/Honda/tires/Tires.page'
+export {default as WheelsPage} from '../pages/Honda/wheels/Wheels.page'
+export { default as AccessoriesPage} from '../pages/Honda/accessories/Accesories.page'
+export { default as PackagesPage} from '../pages/Honda/packages/Packages.page'
+export { default as ContactPage} from '../pages/Honda/contact/Contact.page'

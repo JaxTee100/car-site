@@ -1,0 +1,168 @@
+.car-item-container{
+    width: 490.67px;
+    border-radius: 24px;
+    padding: 24px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border: 1px solid grey;
+    position: relative;
+    overflow: hidden;
+}
+
+.car-item-container .title-logo{
+    display: flex;
+    width: 426.67px;
+    height: 63px;
+}
+.car-item-container .title-logo div{
+    width: 308px;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.car-item-container .title-logo div h1{
+    color: #1E293B;
+    width: 250px;
+    height: 38px;
+    font-size: 25px;
+}
+.car-item-container .title-logo div p{
+    width: 308px;
+    height: 21px;
+    color: #475569;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.car-item-container .title-logo div p span{
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.car-item-container .title-logo img{
+    width: 117px;
+    height: 28px;
+}
+
+
+.car-item-container .tire-position{
+    width: 277px;
+    height: 32px;
+    display: flex;
+    gap: 12px;
+    position: relative;
+
+}
+.car-item-container .tire-position .front{
+    width: 144px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+
+    gap: 4px;
+}
+.car-item-container .tire-position .front p{
+    color: #475569;
+    font-size: 14px;
+    width: 74px;
+    height: 21px;
+}
+.car-item-container .tire-position .back{
+    width: 141px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.car-item-container .tire-position .back p{
+    color: #475569;
+    font-size: 14px;
+}
+
+.car-item-container .values{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 139px;
+    height: 55px;
+}
+.car-item-container .values p:first-child{
+    font-size: 20px;
+    color: #475569;
+}
+.car-item-container .values p:first-child span{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.car-item-container .values p:last-child{
+    width: 139px;
+    height: 21px;
+}
+.car-item-container .values p:last-child{
+    color: #475569;
+    font-size: 14px;
+}
+.car-item-container .values p:last-child span{
+   font-weight: 500;
+    margin-left: 15px;
+}
+.car-item-container .tire-img{
+    width: 224.36px;
+    height: 360px;
+    position: absolute;
+    left: 245.33px;
+    top: -30px;
+}
+
+.car-item-container .footer{
+    display: flex;
+    align-items: center;
+    width: 490.67px;
+    background-color: white;
+    height: 40px;
+    padding: 10px 0;
+    z-index: 10;
+    color: #475569;
+    margin-top: 20px;
+}
+.car-item-container .footer div{
+    width: 256px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #475569;
+    margin-right: 150px;
+}
+.car-item-container .footer div img{
+    width: 68px;
+    height: 19px;
+}
+.car-item-container .footer div p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.location-dropdowns{
+    width: 490.67px;
+    height: 201px;
+    padding: 16px 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    z-index: 50;
+    background-color: white;
+    margin-left: -32.6px;
+    margin-top: -16px;
+    
+} 
+.location-dropdowns div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #475569;
+    font-size: 14px;
+}

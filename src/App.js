@@ -1,12 +1,15 @@
-import { PriceCard } from './components';
+
 import './App.css';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import HondaRoutes from './routes/Honda.routes';
 
 function App() {
   return (
-    <div className="App">
-      <PriceCard />
-      
-    </div>
+    <Router>
+      <Routes>
+        <Route path='*' element={<HondaRoutes />} />
+      </Routes>
+    </Router>
   );
 }
 

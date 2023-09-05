@@ -1,10 +1,38 @@
 .search-container{
-    width: 1556px;
     height: 191px;
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: center;
+}
+/* common styles amongst all input container */
+.common-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 24px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    color: #64748b;
+    border-radius: 40px;
+}
+.common-icon-style{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* custom arrow-icons style */
+.arrow-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.arrow-icons {
+    width: 12px;
+    height: 6px;
 }
 /* toggle button styling */
 .search-container .toggle{
@@ -55,154 +83,54 @@
     width: 201px;
 }
 
+
+
+
 /* vehicle input */
 .search-container .vehicle{
-    border: 1px solid #e2e8f0;
     display: flex;
     align-items: center;
     gap: 12px;
     padding: 20px 24px;
-    width: 100%;
+    width: 1556px;
     height: 104px;
     border-radius: 80px;
     background-color: #ffffff;
 }
-
-/* common styles amongst all input container */
-.common-style{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    padding: 16px 24px;
-    background-color: #f8fafc;
-    border: 1px solid #e2e8f0;
-    color: #64748b;
-    border-radius: 40px;
-}
-.common-icon-style{
-    width: 32px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* custom arrow-icons style */
-.arrow-icon{
-    width: 24px;
-    height: 24px;
-}
-
-.arrow-icons {
-    width: 12px;
-    height: 6px;
-}
-
 .search-container .vehicle .vehicle-details{
-    display: flex;
-    align-items: center;
-    gap: 12px;
     width: 1314px;
     height: 64px;
+    display: flex;
+    justify-content: space-between;
 }
-
 
 .search-container .vehicle .vehicle-details .year{
-    
-    
+    border: 1px solid #e2e8f0;
     width: 229px;
     height: 64px;
-}
-.search-container .vehicle .vehicle-details .year #year-icon #icon1{
-    width: 22px;
-    height: 24px;
-}
-.search-container .vehicle .vehicle-details .year p{
-    width: 101px;
-    height: 30px;
+    border-radius: 40px;
+    padding: 16px 14px;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    color: #64748B;
+}
+.search-container .vehicle .vehicle-details .year input{
+    outline: none;
+    border: none;
+    width: 160px;
+    height: 100%;
+    font-size: 20px;
+    
+}
+.search-container .vehicle .vehicle-details input::placeholder{
+    color: #64748B;
+    font-size: 14px;
+    text-align: center;
 }
 
 
-
-
-
-.search-container .vehicle .vehicle-details .maker{
-    width: 245px;
-    height: 64px;
-}
-.search-container .vehicle .vehicle-details .maker #maker-icon #icon3{
-    width: 22px;
-    height: 16px;
-}
-.search-container .vehicle .vehicle-details .maker p{
-    width: 117px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-
-.search-container .vehicle .vehicle-details .model{
-   
-    width: 246px;
-    height: 64px;
-}
-.search-container .vehicle .vehicle-details .model #model-icon #icon5{
-    width: 28px;
-    height: 21px;
-}
-.search-container .vehicle .vehicle-details .model p{
-    width: 118px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-.search-container .vehicle .vehicle-details .product{
-    width: 310px;
-    height: 64px;
-}
-.search-container .vehicle .vehicle-details .product #product-icon #icon7{
-    height: 24px;
-    width: 24px;
-}
-.search-container .vehicle .vehicle-details .product p{
-    width: 182px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.search-container .vehicle .vehicle-details .zipcode{
-    width: 236px;
-    height: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.search-container .vehicle .vehicle-details .zipcode #zip-icon #icon9{
-    width: 20px;
-    height: 26px;
-}
-.search-container .vehicle .vehicle-details .zipcode p{
-    width: 136px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 /* button */
 .search-container .vehicle  button{
@@ -228,7 +156,6 @@
     height: 104px;
     border-radius: 80px;
     background-color: #ffffff;
-    border: 1px solid #e2e8f0;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -297,4 +224,6 @@
     color: white;
     border-radius: 39px;
     background-color: #ea0029;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px grey;
 }
