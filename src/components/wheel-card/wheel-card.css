@@ -1,0 +1,94 @@
+.wheel-card-container{
+    border: 1px solid #cbd5e1;
+    width: 469.33px;
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+}
+.wheel-card-container .top{
+    width: 469.33px;
+    height: 201px;
+    display: flex;
+    gap: 24px;
+    padding: 24px 32px;
+}
+.wheel-card-container .top .wheel-img{
+    width: 125.72px;
+    height: 128px;
+    background-image: url('../../assets/Honda/wheel.png');
+}
+.wheel-card-container .top .desc{
+    width: 255.62px;
+    height: 153px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.wheel-card-container .top .desc h2{
+    font-size: 25px;
+    color: #1e293b;
+    width: 189px;
+    height: 38px;
+}
+.wheel-card-container .top .desc .size{
+    display: flex;
+    gap: 16px;
+    width: 255px;
+    height: 21px;
+    color: #475569;
+    
+}
+.wheel-card-container .top .desc .size p{
+    font-size: 14px;
+}
+.wheel-card-container .top .desc .quantity{
+    display: flex;
+    gap: 16px;
+    width: 250px;
+    height: 36px;
+    color: #475569;
+    align-items: center;
+}
+.wheel-card-container .top .desc .quantity p{
+    font-size: 14px;
+}
+.wheel-card-container .top .desc .quantity .drop{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+.wheel-card-container .top .desc p{
+    font-size: 20px;
+    color: #475569;
+}
+
+.wheel-card-container .footer-items{
+    display: flex;
+    height: 56px;
+    padding: 16px 32px;
+    gap: 24px;
+    justify-content: center;
+    border-top: 1px solid #cbd5e1;
+}
+.wheel-card-container .footer-items .view-details{
+    display: flex;
+    width: 121px;
+    height: 24px;
+    display: flex;
+    gap: 8px;
+    color: #475569;
+    font-size: 16px;
+}
+.wheel-card-container .footer-items p{
+    color: #475569;
+}
+.wheel-card-container .footer-items .quote{
+    display: flex;
+    width: 135.04px;
+    height: 24px;
+    gap: 16px;
+    color: #475569;
+    font-size: 16px;
+}

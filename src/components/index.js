@@ -17,11 +17,12 @@ export {default as CarItem} from './car-item/CarItem'
 //dropdown button
 export {default as Dropdown} from './dropdown/Dropdown'
 
-//dealer-view
-export {default as DealerView} from './dealer-view/DealerView'
 
 //footer
 export {default as Footer} from './footer/Footer'
+
+//wheel-card
+export {default as WheelCard} from './wheel-card/WheelCard'
 
 
 

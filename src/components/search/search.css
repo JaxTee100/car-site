@@ -43,6 +43,7 @@
     border: 1px solid #e2e8f0;
     border-radius: 63px;
     display: flex;
+    box-shadow: 1px 1px 4px  grey;
     
 }
 .search-container .toggle .vehicle-btn{
@@ -96,6 +97,7 @@
     height: 104px;
     border-radius: 80px;
     background-color: #ffffff;
+    box-shadow: 1px 1px 1px grey;
 }
 .search-container .vehicle .vehicle-details{
     width: 1314px;

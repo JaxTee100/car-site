@@ -8,8 +8,8 @@ import {BiMap} from 'react-icons/bi'
 
 const Search = () => {
   //toggle states
-  const [vehicle, setVehicle] = useState(true)
-  const [tires, setTires] = useState(false);
+  const [vehicle, setVehicle] = useState(false)
+  const [tires, setTires] = useState(true);
 
   //dropdown states
   const [dropDown, setDropDown]  = useState(false)

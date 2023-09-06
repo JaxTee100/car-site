@@ -3,6 +3,8 @@
     width: 1920px;
     padding: 16px 192px;
     display: flex;
+    box-shadow: 1px 1px 4px 3px #e2e8f0;
+    position: relative;
 }
 .nav .honda-nav-container{
     display: flex;
@@ -71,6 +73,7 @@
     border: none;
     color: white;
     box-shadow: 1px 1px 4px grey;
+    cursor: pointer;
 }
 .nav .honda-nav-container .btn-container .shopping-cart-container{
     position: relative;
@@ -89,4 +92,22 @@
     position: absolute;
     left: 12px;
     top: -10px;
+}
+
+.nav .honda-nav-container .drop-down{
+   width: 251px;
+   height: 280px; 
+   position: absolute;
+   color: #475569;
+   left: 1429px;
+   top: 95px;
+   background-color: white;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.nav .honda-nav-container .drop-down p{
+    width: 251px;
+    height: 56px;
+    display: flex;
+    gap: 10px;
+    padding: 16px 24px;
 }

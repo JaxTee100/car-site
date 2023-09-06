@@ -1,0 +1,67 @@
+.wheels-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wheels-container .wheels-header{
+    width: 752px;
+    height: 718px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 130px;
+}
+.wheels-container .wheels-header .title{
+    width: 752px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+}
+.wheels-container .wheels-header .title .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 108px;
+    gap: 16px;
+    color: #475569;
+
+}
+.wheels-container .wheels-header .title .logo img{
+    width: 69.05px;
+    height: 56px;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 20px;
+}
+.wheels-container .wheels-header .title .logo p{
+    font-size: 24px;
+}
+.wheels-container .wheels-header .title .heading{
+    width: 752px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wheels-container .wheels-header .title .heading h1{
+    font-size: 64px;
+    color: #1e293b;
+}
+.wheels-container .wheels-header .title .heading p{
+    font-size: 40px;
+    color: #475569;
+}
+.wheels-container .wheels-header .wheels-img{
+    width: 535.88px;
+    height: 380px;
+    background-image: url('../../../assets/Honda/wheels.png');
+}
+.wheels-container .search-container{
+    margin-top: -43px;
+}
