@@ -1,7 +1,8 @@
 import React from 'react'
 import './wheels.page.css'
 import Logo from '../../../assets/Honda/honda-logo.png'
-import { CarItem, SearchBar, WheelCard } from '../../../components'
+import { SearchBar} from '../../../components'
+import { WheelResults } from '../../../containers'
 
 const Wheels = () => {
   return (
@@ -33,7 +34,7 @@ const Wheels = () => {
         </div>
       </div>
       <div>
-        <WheelCard />
+        <WheelResults />
       </div>
     </div>
   )

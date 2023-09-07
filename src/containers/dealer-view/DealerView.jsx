@@ -1,9 +1,9 @@
 import React from 'react'
 import './dealer-view.css'
-import CarItem from '../car-item/CarItem'
 import Brand1 from '../../assets/brand1.png'
 import Brand2 from '../../assets/brand2.png'
 import Brand3 from '../../assets/brand3.png'
+import { CarItem } from '../../components'
 
 const DealerView = () => {
   return (

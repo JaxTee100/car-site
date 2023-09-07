@@ -1,0 +1,14 @@
+.wheels-card-container{
+    width: 1536px;
+    height: 967px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+.wheels-card-container .cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}

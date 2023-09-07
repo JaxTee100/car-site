@@ -1,0 +1,38 @@
+.car-type-container{
+    border: 1px solid red;
+    width: 1536px;
+    height: 686px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px 48px 24px 48px;
+}
+.car-type-container .model-name{
+    border: 1px solid blue;
+    width: 417px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.car-type-container .model-name h2{
+    font-size: 32px;
+    color: #1e293b;
+    width: 304px;
+    height: 48px;
+}
+.car-type-container .model-name p{
+    font-size: 14px;
+    width: 417px;
+    height: 21px;
+    color: #1e293b;
+}
+.car-type-container  .model-img{
+    width: 827.2px;
+    height: 420px;
+    background-image: url('../../../assets/Honda/honda-car.png');
+}
+.car-type-container p{
+    font-size: 14px;
+    color: #1e293b;
+}
