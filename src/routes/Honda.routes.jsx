@@ -1,12 +1,10 @@
 import React from 'react'
 import  { Routes, Route} from 'react-router-dom'
 import { AccessoriesPage, ContactPage, HondaPage, PackagesPage, TiresPage, WheelsPage } from '../pages'
-import HondaLayout from '../pages/Honda/Honda-Layout/HondaLayout'
 
 
 const HondaRoutes = () => {
   return (
-    <HondaLayout>
       <Routes>
         <Route exact path='/honda-home' element={<HondaPage />} />
         <Route  path='/honda-tires' element={<TiresPage />} />
@@ -17,7 +15,6 @@ const HondaRoutes = () => {
 
 
       </Routes>
-    </HondaLayout>
     
   )
 }

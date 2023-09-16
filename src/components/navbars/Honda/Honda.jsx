@@ -2,21 +2,43 @@ import React, { useState } from 'react'
 import './honda.css'
 import HondaLogo from '../../../assets/honda-group.png'
 import {NavLink} from 'react-router-dom'
+import {FaBars} from 'react-icons/fa'
 
 import {PiShoppingCartSimple} from 'react-icons/pi'
 
 const Honda = () => {
     const [showDropdown, setShowDropdown] = useState(false);
 
+    const [showMenuButton, setShowMenuButton] = useState(false)
+
     const dropdown = () => {
         setShowDropdown(!showDropdown)
+        console.log('clicked!!')
+    }
+
+    const showMenu = () => {
+        setShowMenuButton(!showMenuButton)
+        console.log('error-check')
     }
   return (
     <nav className='nav'>
         <div className='honda-nav-container'>
+            
             <div className='logo-container'>
+                <div className='menu-btn'>
+                    <FaBars size={24} onClick={showMenu}/>
+                    {showMenuButton &&
+                        <div className='menu-container'>
+                            <p><NavLink to='/honda-home' className='link'>Home</NavLink></p>
+                            <p><NavLink to='/honda-wheels' className='link'>Wheels</NavLink></p>
+                            <p><NavLink to='/honda-accessories' className='link'>Accessories</NavLink></p>
+                            <p><NavLink to='/honda-packages' className='link'>Packages</NavLink></p>
+                            <p><NavLink to='/honda-contact' className='link'>Contact Us</NavLink></p>
+                        </div>
+                    }
+                </div>
                 <img src={HondaLogo} alt="honda-logo"/>
-                <p>Northern Honda</p>
+                <p id='north'>Northern Honda</p>
 
             </div>
             <ul>

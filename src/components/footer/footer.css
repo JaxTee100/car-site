@@ -1,7 +1,7 @@
 footer{
     display: flex;
-    width: 1920px;
-    height: 128px;
+    max-width: 1920px;
+    min-height: 128px;
     align-items: center;
     gap: 24px;
     padding: 48px 0;
@@ -10,6 +10,76 @@ footer{
 footer .footer-container{
     display: flex;
     gap: 64px;
-    width: 1920px;
-    height: 32px;
+    max-width: 1920px;
+    min-height: 32px;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Your styles for iPad Mini in portrait mode go here */
+    footer{
+        width: 744px;
+        height: 80px;
+        overflow: hidden;
+        justify-content: center;
+    }
+    footer .footer-container{
+        width: 1697.59x;
+        gap: 24px;
+        height: 32px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 414px) {
+    footer{
+        min-height: 144px;
+        max-width: 390px;
+        gap: 24px;
+        padding: 34px;
+    }
+    footer .footer-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+        width: 320.78px;
+        height: 96px;
+        gap: 20px 10px;
+    }
+
+    #logo1{
+        width: 100.5px;
+        height: 16px;
+    }
+    #logo2{
+        width: 64px;
+        height: 16px;
+    }
+    #logo3{
+        width: 64px;
+        height: 16px;
+    }
+    #logo4{
+        width: 64px;
+        height: 16px;
+    }
+    #logo5{
+        width: 95.01px;
+        height: 16px;
+    }
+    #logo6{
+        width: 64px;
+        height: 16px;
+    }
+    #logo7{
+        width: 91.5px;
+        height: 16px;
+    }
+    #logo8{
+        width: 76.8px;
+        height: 16px;
+    }
+    #logo9{
+        width: 120.48px;
+        height: 16px;
+    }
+  }

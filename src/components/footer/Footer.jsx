@@ -6,15 +6,15 @@ const Footer = () => {
   return (
     <footer>
         <div className='footer-container'>
-                <img src={Hankook} />
-                <img src={Goodyear} />
-                <img src={Pirelli} />
-                <img src={Toyotires}/>
-                <img src={Yokohama}/>
-                <img src={Continental}/>
-                <img src={Bfgoorich} />
-                <img src={Firestone} />
-                <img src={Uniroyal} />
+                <img src={Hankook} id='logo1'/>
+                <img src={Goodyear} id='logo2'/>
+                <img src={Pirelli} id='logo3'/>
+                <img src={Toyotires} id='logo4'/>
+                <img src={Yokohama} id='logo5'/>
+                <img src={Continental} id='logo6'/>
+                <img src={Bfgoorich} id='logo7'/>
+                <img src={Firestone} id='logo8'/>
+                <img src={Uniroyal} id='logo9'/>
         </div>
         
     </footer>

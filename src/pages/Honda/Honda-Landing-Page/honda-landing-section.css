@@ -1,6 +1,6 @@
 .landing-container{
-    width: 1920px;
-    height: 1200px;
+    max-width: 1920px;
+    min-height: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -15,6 +15,24 @@
 }
 
 .landing-container .search-div{
-    height: 191px;
+    min-height: 191px;
     margin: 0 auto;
+}
+.landing-container .foot-container{
+    display: flex;
+    margin-top: auto;
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .landing-container{
+        width: 744px;
+    }
+    .landing-container .body-div{
+        width: 100%;
+    }
+    .landing-container .body-div img{
+        width: 100%;
+    }
 }
