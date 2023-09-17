@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='*' element={<HondaRoutes />} />
+        <Route exact path='*' element={<HondaRoutes />} />
       </Routes>
     </Router>
   );
