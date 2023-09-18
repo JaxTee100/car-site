@@ -1,11 +1,12 @@
 import React from 'react'
 import './tires.page.css'
-import { SearchBar } from '../../../components'
+import { Footer, HondaNavbar, SearchBar } from '../../../components'
 import Logo from '../../../assets/Honda/honda-logo.png'
 
 const Tires = () => {
   return (
     <div className='tire-container'>
+      <HondaNavbar />
       <div className='tire-header'>
         <div className='title'>
           <div className='logo'>
@@ -24,6 +25,7 @@ const Tires = () => {
       <div className='search-container'>
         <SearchBar />
       </div>
+      <Footer />
     </div>
   )
 }

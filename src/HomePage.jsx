@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div>
       <h1>This is the home Page</h1>
-      <Link to='/honda-home'>Click me</Link>
+      <Link to='/honda-home'>Honda</Link>
     </div>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import './wheels.page.css'
 import Logo from '../../../assets/Honda/honda-logo.png'
-import { SearchBar} from '../../../components'
+import { Footer, HondaNavbar, SearchBar} from '../../../components'
 import { WheelResults } from '../../../containers'
 
 const Wheels = () => {
   return (
     <div className='wheels-container'>
+      <HondaNavbar />
       <div className='wheels-header'>
         <div className='title'>
           <div className='logo'>
@@ -36,6 +37,7 @@ const Wheels = () => {
       <div>
         <WheelResults />
       </div>
+      <Footer />
     </div>
   )
 }
