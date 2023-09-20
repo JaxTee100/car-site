@@ -17,10 +17,10 @@ footer .footer-container{
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     /* Your styles for iPad Mini in portrait mode go here */
     footer{
-        width: 744px;
+        width: 768px;
         height: 80px;
-        overflow: hidden;
         justify-content: center;
+        border: 1px solid red;
     }
     footer .footer-container{
         width: 1697.59x;
@@ -33,7 +33,7 @@ footer .footer-container{
   @media only screen and (max-width: 414px) {
     footer{
         min-height: 144px;
-        max-width: 390px;
+        width: 100%;
         gap: 24px;
         padding: 34px;
     }

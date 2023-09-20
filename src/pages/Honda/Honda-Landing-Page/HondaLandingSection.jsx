@@ -1,7 +1,7 @@
 import React from 'react'
 import './honda-landing-section.css'
-import { TiresPicture } from '../../../assets'
-import { Footer, HondaNavbar, SearchBar } from '../../../components'
+import { Footer, HondaNavbar, LandingImage, SearchBar } from '../../../components'
+import BackgroundImage from '../../../assets/Honda/wheels.jpg'
 
 const HondaLandingSection = () => {
   return (
@@ -10,7 +10,7 @@ const HondaLandingSection = () => {
         <HondaNavbar />
       </div>
         <div className='body-div'>
-            <img src={TiresPicture} />
+            <LandingImage />
         </div>
         <div className='search-div'>
             <SearchBar />

@@ -4,6 +4,7 @@
     padding: 16px 192px;
     display: flex;
     position: relative;
+    box-shadow: 1px 1px 2px 4px #e2e8f0;
 }
 .nav .honda-nav-container{
     display: flex;
@@ -136,7 +137,7 @@
 
 
 /* tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
     .nav{
         height: 69px;
         width: 744px;
@@ -161,6 +162,10 @@
         width: 24px;
         height: 24px;
         
+    }
+    .nav .honda-nav-container .logo-container img{
+        width: 133.34px;
+        height: 30px;
     }
     .nav .honda-nav-container .logo-container p{
         width: 118px;

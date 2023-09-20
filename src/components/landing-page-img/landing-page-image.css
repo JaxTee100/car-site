@@ -1,0 +1,22 @@
+
+.landing-image-container img{
+    height: 532px;
+    width: 1536px;
+    border-radius: 18px;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .landing-image-container img{
+        height: 241.8px;
+        width: 700px;
+        border-radius: 18px;
+    }
+    
+}
+
+@media only screen and (max-width: 414px){
+    .landing-image-container img{
+        width: 378px;
+        height: 152px;
+        border-radius: 4px;
+    }
+}

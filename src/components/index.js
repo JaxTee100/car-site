@@ -24,5 +24,8 @@ export {default as Footer} from './footer/Footer'
 //wheel-card
 export {default as WheelCard} from './wheel-card/WheelCard'
 
+//landing page image
+export { default as LandingImage} from './landing-page-img/LandingPageImage'
+
 
 

@@ -3,24 +3,32 @@
     min-height: 1200px;
     display: flex;
     flex-direction: column;
+
 }
+
 .landing-container .nav-div{
     width: 1920px;
     height: 83px;
 }
 .landing-container .body-div{
-    height: 665px;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
     margin-bottom: 64px;
 }
 
 .landing-container .search-div{
     min-height: 191px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 .landing-container .foot-container{
     display: flex;
     margin-top: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -36,3 +44,18 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 414px){
+    .landing-container .search-div{
+        margin-bottom: 300px;
+    }
+    .landing-container .body-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        margin-bottom: 64px;
+    }
+}
+
+

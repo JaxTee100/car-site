@@ -72,7 +72,7 @@ const Search = () => {
               }
               
             </div>
-            <div className='year'>
+            <div className='year' id='zipp'>
               <BiMap size={18}/>
               <input type='text' placeholder='Enter Zip Code'/>
               
@@ -89,13 +89,14 @@ const Search = () => {
         <div className='tire'>
             
             <div className='tire-size'>
-              <div className='common-icon-style'><PiPokerChipDuotone id='icon11'/></div>
-              <p>Enter Tire Size</p>
-              <div className='arrow-icon' id='location'><AiOutlineInfoCircle id='icon12'/></div>
+              <PiPokerChipDuotone size={20} id='icon11'/>
+              <input type='text'  placeholder='Enter Tire Size'/>
+            
+              <AiOutlineInfoCircle size={20} id='icon12' />
             </div>
             <div className='postal-code'>
-              <div className='common-icon-style'><BiMap id='icon13'/></div>
-              <p>Enter Postal Code</p>
+              <BiMap size={20} className='icon13'/>
+              <input type='text' placeholder='Enter Postal Code'  />
             </div>
             <button>View Results</button>
           
