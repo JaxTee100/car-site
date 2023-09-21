@@ -62,6 +62,60 @@
     height: 380px;
     background-image: url('../../../assets/Honda/honda-tires.png');
 }
-.tire-container .search-container{
+.tire-container .tire-search-container{
     margin-top: -43px;
+}
+
+
+@media only screen and (max-width: 414px){
+    .tire-container{
+    }
+    .tire-container .tire-header{
+        width: 364.74px;
+        height: 408px;
+
+    }
+    .tire-container .tire-header .title{
+        width: 207px;
+        height: 176px;
+        gap: 32px;
+        display: flex;
+        align-items: center;
+
+    }
+    .tire-container .tire-header .title .logo{
+        width: 118px;
+        height: 80px;
+    }
+    .tire-container .tire-header .title .logo img{
+        width: 49.32px;
+        height: 40px;
+    }
+    .tire-container .tire-header .title .logo p{
+        width: 118px;
+        height: 24px;
+        font-size: 14px;
+    }
+    .tire-container .tire-header .title  .heading{
+        width: 207px;
+        height: 64px;
+    }
+    .tire-container .tire-header .title  .heading h1{
+        font-size: 28px;
+        width: 207px;
+        height: 35px;
+    }
+    .tire-container .tire-header .title  .heading p{
+        font-size: 20px;
+    }
+
+    .tire-container .tire-header .tire-img{
+        width: 364.74px;
+        height: 200px;
+        background-repeat: none;
+        background-size: cover, 200px;
+    }
+    .tire-container .tire-search-container{
+        margin-top: -3px;
+    }
 }

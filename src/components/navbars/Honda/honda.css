@@ -136,11 +136,81 @@
 }
 
 
+/* small screens */
+@media only screen and (max-width: 414px) {
+    .nav{
+        height: 54px;
+        width: 100%;
+        padding: 10px 16px;
+    }
+    .nav .honda-nav-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 10px;
+        
+    }
+    .nav .honda-nav-container .logo-container .menu-btn{
+        display: flex;
+        width: 24px;
+        height: 24px;
+        
+    }
+    .menu-container{
+        height: 200px;
+        width: 150px;
+        top: 53px;
+        color: black;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   
+    .nav .honda-nav-container .logo-container{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 150.67px;
+        height: 24px;
+    }
+    #north{
+        display: none;
+    }
+    .nav .honda-nav-container ul{
+        display: none;
+    }
+    .nav .honda-nav-container .btn-container{
+        width: 112px;
+        height: 34px;
+        padding: 0;
+        display: flex;
+        gap: 12px;
+    }
+    .nav .honda-nav-container .btn-container button{
+        width: 68px;
+        height: 34px;
+        border-radius: 39.38px;
+        padding: 8px 16px;
+        display: flex;
+        gap: 9px;
+        font-size: 12px;
+    }
+    .nav .honda-nav-container .drop-down{
+        width: 150px;
+        height: 280px; 
+        left: 250px;
+        top: 83px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        
+     }
+  }
+
+
 /* tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
     .nav{
         height: 69px;
-        width: 744px;
+        width: 100%;
         padding: 24px;
     }
     .nav .honda-nav-container{
@@ -212,70 +282,3 @@
 }
 
 /* iphone 14 */
-@media only screen and (max-width: 414px) {
-    .nav{
-        height: 54px;
-        width: 390px;
-        padding: 10px 16px;
-    }
-    .nav .honda-nav-container{
-        display: flex;
-        justify-content: space-between;
-        padding: 24px 10px;
-        
-    }
-    .nav .honda-nav-container .logo-container .menu-btn{
-        display: flex;
-        width: 24px;
-        height: 24px;
-        
-    }
-    .menu-container{
-        height: 200px;
-        width: 150px;
-        top: 53px;
-        color: black;
-        font-size: 12px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-   
-    .nav .honda-nav-container .logo-container{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        width: 150.67px;
-        height: 24px;
-    }
-    #north{
-        display: none;
-    }
-    .nav .honda-nav-container ul{
-        display: none;
-    }
-    .nav .honda-nav-container .btn-container{
-        width: 112px;
-        height: 34px;
-        padding: 0;
-        display: flex;
-        gap: 12px;
-    }
-    .nav .honda-nav-container .btn-container button{
-        width: 68px;
-        height: 34px;
-        border-radius: 39.38px;
-        padding: 8px 16px;
-        display: flex;
-        gap: 9px;
-        font-size: 12px;
-    }
-    .nav .honda-nav-container .drop-down{
-        width: 150px;
-        height: 280px; 
-        left: 250px;
-        top: 83px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        
-     }
-  }

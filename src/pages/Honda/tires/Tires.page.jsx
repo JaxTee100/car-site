@@ -22,7 +22,7 @@ const Tires = () => {
 
         </div>
       </div>
-      <div className='search-container'>
+      <div className='tire-search-container'>
         <SearchBar />
       </div>
       <Footer />
