@@ -27,5 +27,8 @@ export {default as WheelCard} from './wheel-card/WheelCard'
 //landing page image
 export { default as LandingImage} from './landing-page-img/LandingPageImage'
 
+//accesories result card
+export {default as AccessoriesResult} from './accessories-result/AccessoriesResult'
+
 
 

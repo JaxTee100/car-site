@@ -37,7 +37,6 @@ const Wheels = () => {
       <div>
         <WheelResults />
       </div>
-      <Footer />
     </div>
   )
 }

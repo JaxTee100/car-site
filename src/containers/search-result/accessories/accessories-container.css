@@ -1,0 +1,92 @@
+.accessories-results-container{
+    width: 1536px;
+    height: 1495px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.accessories-results-container .accessories-header{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+.accessories-results-container .accessories-header .text{
+    display: flex;
+    flex-direction: column;
+
+}
+.accessories-results-container .accessories-header .text h2{
+    font-size: 32px;
+    color: #1E293B;
+}
+.accessories-results-container .accessories-header .text p{
+    font-size: 18px;
+    color: #1E293B;
+}
+.accessories-results-container .accessories-header .filter{
+    display: flex;
+    width: 81px;
+    height: 27px;
+    gap: 8px;
+    color: #1E293B;
+    margin-bottom: -30px;
+}
+.accessories-results-container .result-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+
+}
+
+
+
+@media only screen and (max-width: 414px){
+    .accessories-results-container{
+        width: 358px;
+        height: 3843px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accessories-results-container .result-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 42px;
+    
+    }
+    .accessories-results-container .accessories-header{
+        height: 42px;
+        width: 358px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .accessories-results-container .accessories-header .text h2{
+        font-size: 24px;
+    }
+    .accessories-results-container .accessories-header .text p{
+        font-size: 14px;
+        color: #1E293B;
+    }
+    .accessories-results-container .accessories-header .filter{
+        margin-bottom: -20px;
+        border: 1px solid red;
+    }
+    .accessories-results-container .accessories-header .filter p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .accessories-results-container .result-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    
+    }
+}
