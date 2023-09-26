@@ -30,5 +30,7 @@ export { default as LandingImage} from './landing-page-img/LandingPageImage'
 //accesories result card
 export {default as AccessoriesResult} from './accessories-result/AccessoriesResult'
 
+//preview car
+export {default as CarPreview} from './car-preview/CarPreview'
 
 

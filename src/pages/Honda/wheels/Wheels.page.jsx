@@ -1,7 +1,7 @@
 import React from 'react'
 import './wheels.page.css'
 import Logo from '../../../assets/Honda/honda-logo.png'
-import { Footer, HondaNavbar, SearchBar} from '../../../components'
+import {  CarPreview, Footer, HondaNavbar, SearchBar} from '../../../components'
 import { WheelResults } from '../../../containers'
 
 const Wheels = () => {
@@ -30,11 +30,11 @@ const Wheels = () => {
         <div className='search-image'>
 
         </div>
-        <div className='wheels-card'>
-
+        <div className='car-preview'>
+          <CarPreview />
         </div>
       </div>
-      <div>
+      <div className='wheels-cards'>
         <WheelResults />
       </div>
     </div>

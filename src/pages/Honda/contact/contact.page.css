@@ -1,0 +1,322 @@
+.contact-page-container{
+    background-color: white;
+    height: 1197px;
+}
+.contact-page-container .contacts-nav{
+    margin-bottom: 20px;
+}
+.contact-page-container .contact-info{
+    background-color: white;
+}
+
+.contact-page-container .contact-info .contact-header{
+    max-width: 1536px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.contact-page-container .contact-info .contact-header  .contact-link{
+    max-width: 123px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-page-container .contact-info .contact-header  .contact-link p{
+    font-size: 14px;
+    color: #475569;
+}
+
+.contact-page-container .contact-info .contact-header h2{
+    max-width: 165px;
+    height: 48px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #1E293B;
+}
+.contact-page-container .contact-info .contact-header .contact-session{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-page-container .contact-info .contact-header .contact-session button{
+    border: 1px solid #ea0029;
+    outline: none;
+    padding: 12px 28px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 253px;
+    height: 51px;
+    border-radius: 39px;
+    color: #ea0029;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: white;
+
+}
+.contact-page-container .contact-info .info-container{
+    border: 1px solid #E2E8F0;
+    max-width: 1536px;
+    height: 843px;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 48px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    
+}
+.contact-page-container .contact-info .info-container .contact-information{
+    
+    max-width: 1376px;
+    height: 256px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 33px;
+}
+.contact-page-container .contact-info .info-container .contact-information .phone,
+.contact-page-container .contact-info .info-container .contact-information .email,
+.contact-page-container .contact-info .info-container .contact-information .address{
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-page-container .contact-info .info-container .contact-information .phone .phone-icon,
+.contact-page-container .contact-info .info-container .contact-information .email .email-icon,
+.contact-page-container .contact-info .info-container .contact-information .address .address-icon{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe8ea;
+}
+
+.contact-page-container .contact-info .info-container .contact-information .phone h3,
+.contact-page-container .contact-info .info-container .contact-information .email h3,
+.contact-page-container .contact-info .info-container .contact-information .address h3{
+    font-size: 20px;
+    color: #1f2937;
+}
+
+.contact-page-container .contact-info .info-container .contact-information .phone p,
+.contact-page-container .contact-info .info-container .contact-information .email p,
+.contact-page-container .contact-info .info-container .contact-information .address p{
+    color: #4b5563;
+    font-size: 16px;
+}
+
+.contact-page-container .contact-info .info-container .customer-service{
+    max-width: 1376px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-page-container .contact-info .info-container .customer-service h2{
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 500;
+    max-width: 330px;
+    height: 40px;
+}
+.contact-page-container .contact-info .info-container .customer-service p{
+    font-size: 16px;
+    color: #4b5563;
+    margin-bottom: 40px;
+    
+}
+.contact-page-container .contact-info .info-container .customer-service .schedules{
+    width: 432px;
+    height: 355px;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    padding: 32px;
+}
+.contact-page-container .contact-info .info-container .customer-service .schedules .days{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+    width: 368px;
+}
+.contact-page-container .contact-info .info-container .customer-service .schedules .days p{
+    font-size: 14px;
+    color: #475569;
+}
+.contact-page-container .contact-info .info-container .customer-service .schedules .days span{
+    font-size: 14px;
+    color: #1E293B;
+    font-weight: 500;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 414px){
+    .contact-page-container .contact-info .contact-header{
+        width: 358px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-page-container .contact-info .contact-header .contact-session{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 358px;
+        height: 99px;
+    }
+    .contact-page-container .contact-info .contact-header .contact-session h2{
+        font-size: 24px;
+    }
+    .contact-page-container .contact-info .contact-header .contact-session button{
+        width: 100%;
+        font-size: 18px;
+    
+    }
+    
+    .contact-page-container .contact-info .info-container{
+        border: none;
+        margin-top: 80px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    .contact-page-container .contact-info .info-container .contact-information{
+        
+        width: 358px;
+        height: 752px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-page-container .contact-info .info-container .contact-information .phone,
+    .contact-page-container .contact-info .info-container .contact-information .email,
+    .contact-page-container .contact-info .info-container .contact-information .address{
+        border: 1px solid #E2E8F0;
+        border-radius: 16px;
+        padding: 16px 12px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 16px;
+        flex-direction: row;
+        height: 92px;
+
+    }
+    
+    .detail{
+        display: flex;
+        align-items: flex-start;
+    }
+    .contact-page-container .contact-info .info-container .contact-information .phone p,
+    .contact-page-container .contact-info .info-container .contact-information .email p,
+    .contact-page-container .contact-info .info-container .contact-information .address p{
+        color: #4b5563;
+        font-size: 14px;
+    }
+
+    .contact-page-container .contact-info .info-container .customer-service{
+        width: 358px;
+        height: 418px;
+    }
+    .contact-page-container .contact-info .info-container .customer-service h2{
+        font-size: 16px;
+        max-width: 228px;
+        height: 19px;
+    }
+    .contact-page-container .contact-info .info-container .customer-service p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .contact-page-container .contact-info .info-container .customer-service .schedules{
+        width: 358px;
+        height: 355px;
+        display: flex;
+        margin-top: 30px;
+    }
+    .contact-page-container .contact-info .info-container .customer-service .schedules .days{
+    
+        display: flex;
+        justify-content: space-between;
+        height: 21px;
+        width: 294px;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .contact-page-container .contact-info{
+        width: 696px;
+        margin: 0 auto;
+    }
+    
+    .contact-page-container .contact-info .info-container{
+        padding: 0;
+        margin-top: 40px;
+        border: none;
+    }
+
+    .contact-page-container .contact-info .info-container .contact-information{
+        width: 696px;
+        height: 208px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+   
+
+
+
+    .contact-page-container .contact-info .info-container .contact-information .phone,
+    .contact-page-container .contact-info .info-container .contact-information .email,
+    .contact-page-container .contact-info .info-container .contact-information .address{
+        
+        width: 221.33px;
+        height: 208px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+
+    }
+    .contact-page-container .contact-info .info-container .contact-information .phone .phone-icon,
+    .contact-page-container .contact-info .info-container .contact-information .email .email-icon,
+    .contact-page-container .contact-info .info-container .contact-information .address .address-icon{
+        
+        width: 60px;
+        height: 60px;
+
+
+    }
+    .detail p{
+        display: flex;
+        flex-direction: column;
+        width: 173px;
+        height: 48px;
+        align-items: center;
+        text-align: center;
+    }
+}

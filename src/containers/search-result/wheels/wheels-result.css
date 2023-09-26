@@ -1,5 +1,5 @@
 .wheels-card-container{
-    width: 1536px;
+    max-width: 1536px;
     height: 967px;
     padding: 32px;
     display: flex;
@@ -11,4 +11,45 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 32px;
+}
+
+
+
+@media only screen and (max-width: 414px){
+    .wheels-card-container{
+        width: 358px;
+        height: 2000px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        
+    }
+    .wheels-card-container h2{
+        font-size: 14px;
+    }
+    .wheels-card-container .cards-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .wheels-card-container{
+        width: 696px;
+        height: 1188px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        
+    }
+    .wheels-card-container .cards-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
 }
