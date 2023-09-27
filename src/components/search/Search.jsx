@@ -6,13 +6,15 @@ import {LuSettings2} from 'react-icons/lu'
 import {PiPokerChipDuotone} from 'react-icons/pi'
 import {BiMap} from 'react-icons/bi'
 
-const Search = () => {
+const Search = ({showResults}) => {
   //toggle states
   const [vehicle, setVehicle] = useState(false)
   const [tires, setTires] = useState(true);
 
   //dropdown states
   const [dropDown, setDropDown]  = useState(false)
+
+  
 
 
 
@@ -81,7 +83,7 @@ const Search = () => {
             
           </div>
 
-          <button>View Results</button>
+          <button onClick={showResults}>View Results</button>
       </div>
       }
       {

@@ -2,7 +2,7 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import HondaRoutes from './routes/Honda.routes';
-import HomePage from './HomePage';
+import HomePage from './main-home/HomePage';
 import { AccessoriesResults } from './containers';
 
 function App() {

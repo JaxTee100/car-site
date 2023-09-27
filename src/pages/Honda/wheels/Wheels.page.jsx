@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './wheels.page.css'
 import Logo from '../../../assets/Honda/honda-logo.png'
 import {  CarPreview, Footer, HondaNavbar, SearchBar} from '../../../components'
 import { WheelResults } from '../../../containers'
 
 const Wheels = () => {
+  const [showResult, setShowResult] = useState(false)
+
+  const showResults = () => {
+    setShowResult(!showResult)
+  }
+  
   return (
     <div className='wheels-container'>
       <HondaNavbar />
@@ -24,19 +30,21 @@ const Wheels = () => {
         </div>
       </div>
       <div className='search-container'>
-        <SearchBar />
+        <SearchBar showResults={showResults}/>
       </div>
       <div className='search-results'>
         <div className='search-image'>
 
         </div>
-        <div className='car-preview'>
+        {showResult && <div className='car-preview'>
           <CarPreview />
-        </div>
+        </div>}
+        
       </div>
-      <div className='wheels-cards'>
+      {showResult && <div className='wheels-cards'>
         <WheelResults />
-      </div>
+      </div>}
+      
     </div>
   )
 }
