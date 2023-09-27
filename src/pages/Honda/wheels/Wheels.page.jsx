@@ -13,10 +13,8 @@ const Wheels = () => {
   
   return (
     <div className='wheels-container'>
-      {!showResult && (
-        <>
-          <HondaNavbar />
-        <div className='wheels-header'>
+      <HondaNavbar />
+      <div className='wheels-header'>
         <div className='title'>
           <div className='logo'>
             <img src={Logo} alt='logo'/>
@@ -31,12 +29,6 @@ const Wheels = () => {
 
         </div>
       </div>
-        </>
-      )
-      
-      }
-      
-      
       <div className='search-container'>
         <SearchBar showResults={showResults}/>
       </div>
@@ -44,14 +36,14 @@ const Wheels = () => {
         <div className='search-image'>
 
         </div>
-        {showResult && <div className='car-preview'>
+        <div className='car-preview'>
           <CarPreview />
-        </div>}
+        </div>
         
       </div>
-      {showResult && <div className='wheels-cards'>
+      <div className='wheels-cards'>
         <WheelResults />
-      </div>}
+      </div>
       
     </div>
   )
