@@ -13,8 +13,10 @@ const Wheels = () => {
   
   return (
     <div className='wheels-container'>
-      <HondaNavbar />
-      <div className='wheels-header'>
+      {!showResult && (
+        <>
+          <HondaNavbar />
+        <div className='wheels-header'>
         <div className='title'>
           <div className='logo'>
             <img src={Logo} alt='logo'/>
@@ -29,6 +31,12 @@ const Wheels = () => {
 
         </div>
       </div>
+        </>
+      )
+      
+      }
+      
+      
       <div className='search-container'>
         <SearchBar showResults={showResults}/>
       </div>

@@ -1,6 +1,6 @@
 .landing-container{
     max-width: 1920px;
-    min-height: 1200px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
 
@@ -19,29 +19,41 @@
 }
 
 .landing-container .search-div{
-    min-height: 191px;
+    height: 191px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
 .landing-container .foot-container{
     display: flex;
-    margin-top: auto;
     align-items: center;
     justify-content: center;
 }
 @media only screen and (max-width: 414px){
-    .landing-container .search-div{
-        margin-bottom: 300px;
+    .landing-container{
+        height: 1050px;
+        width: 405px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
     }
     .landing-container .body-div{
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 10px 0;
-        margin-bottom: 64px;
+        margin-bottom: 120px;
     }
-    
+    .landing-container .search-div{
+        min-height: 191px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: auto;
+    }
+    .landing-container .foot-container{
+        width: 100%;
+    }
 }
 
 

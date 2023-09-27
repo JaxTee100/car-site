@@ -8,8 +8,8 @@ import {BiMap} from 'react-icons/bi'
 
 const Search = ({showResults}) => {
   //toggle states
-  const [vehicle, setVehicle] = useState(false)
-  const [tires, setTires] = useState(true);
+  const [vehicle, setVehicle] = useState(true)
+  const [tires, setTires] = useState(false);
 
   //dropdown states
   const [dropDown, setDropDown]  = useState(false)
@@ -32,6 +32,13 @@ const Search = ({showResults}) => {
   const dropdown = () =>{
     setDropDown(!dropDown)
   }
+
+  const mediaQueryStyle = {
+    // Apply styles for screens with a maximum width of 414px
+    '@media only screen and (max-width: 414px)': {
+      height: tires ? '191px' : '500px', // Adjust the height as needed for smaller screens
+    },
+  };
   return (
     <div className='search-container'>
       <div className='toggle'>
