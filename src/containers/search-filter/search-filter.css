@@ -1,0 +1,107 @@
+.search-filter-container{
+    max-width: 1556px;
+    height: 106px;
+    padding: 20px 24px;
+    display: flex;
+    gap: 12px;
+    background-color: #fff;
+    border-radius: 80px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 1px 1px 7px 2px #CBD5E1;
+    align-items: center;
+}
+
+.search-filter-container .filter-toggle{
+    width: 248px;
+    height: 66px;
+    border-radius: 63px;
+
+}
+.search-filter-container .filter-inputs{
+    width: 1054px;
+    height: 64px;
+    display: flex;
+    gap: 12px;
+    justify-content: space-around;
+}
+
+.search-filter-container .result-btn{
+    border: 1px solid red;
+    outline: none;
+    border: none;
+    width: 182px;
+    height: 64px;
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 32px;
+    color: white;
+    background-color: #EA0029;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 414px){
+    .search-filter-container{
+        width: 358px;
+        height: 497px;
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        margin: 0 auto;
+        border-radius: 24px;
+    }
+    .search-filter-container .filter-toggle{
+        width: 310px;
+        height: 48px;
+    
+    }
+    .search-filter-container .filter-inputs{
+        width: 310px;
+        height: 297px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        gap: 8px;
+    }
+    .search-filter-container .result-btn{
+        width: 310px;
+        height: 56px;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .search-filter-container{
+        width: 696px;
+        height: 392px;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+    }
+    .search-filter-container .filter-toggle{
+        width: 648px;
+        height: 48px;
+    
+    }
+    .search-filter-container .filter-inputs{
+        width: 648px;
+        height: 192px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+    .search-filter-container .result-btn{
+        width: 648px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 22px 32px;
+        color: white;
+        background-color: #EA0029;
+        font-weight: 600;
+    }
+}

@@ -33,4 +33,20 @@ export {default as AccessoriesResult} from './accessories-result/AccessoriesResu
 //preview car
 export {default as CarPreview} from './car-preview/CarPreview'
 
+//filterdropdown
+export {default as FilterDropdown} from './filter-dropdown/FilterDropdown'
+
+
+
+//filter dropdowns
+export {default as YearDropdown} from './filter-dropdown/year/YearDropDown'
+export {default as BrandDropdown} from './filter-dropdown/brand/BrandDropdown'
+export {default as PostalDropdown} from './filter-dropdown/postal-code/PostalCodeDropdown'
+export {default as ItemsDropdown} from './filter-dropdown/Item-type/ItemTypeDropdown'
+export {default as ModelDropdown} from './filter-dropdown/model/ModelDropdown'
+
+
+//toggle component
+export {default as Toggle} from './toggle/Toggle'
+
 

@@ -5,6 +5,7 @@
     border: 1px solid #E2E8F0;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 6px 1px #E2E8F0;
 }
 .accessories-result-container  .accesories-header{
     display: flex;
@@ -64,6 +65,45 @@
     .accessories-result-container{
         width: 358px;
         height: 200px;
+    }
+    .accessories-result-container  .accesories-header{
+        width: 358px;
+        height: 147px;
+    }
+    .accessories-result-container  .accesories-header .accessories-image{
+        width: 115px;
+        height: 115px;
+    }
+    .accessories-result-container  .accesories-header .accessories-image img{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+    .accessories-result-container  .accesories-header .accessories-details h2{
+        font-size: 20px;
+    }
+    .accessories-result-container  .accesories-header .accessories-details span{
+        display: flex;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    
+    }
+    .accessories-result-container  .accesories-header .accessories-details p{
+        font-size: 15px;
+    }
+    .accessories-result-container button{
+        height: 53px;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .accessories-result-container{
+        width: 336px;
+        height: 200px;
+        
+        padding: 2px 0;
     }
     .accessories-result-container  .accesories-header{
         width: 358px;

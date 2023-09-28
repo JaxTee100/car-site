@@ -1,0 +1,36 @@
+
+.accessories-container{
+    background-color: white;
+}
+.accessories-container .accessories-items{
+    padding-top: 40px;
+}
+
+
+
+.accessories-container .accessories-search{
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .accessories-container{
+        height: 2460px;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+    .accessories-container .accessories-items{
+        margin-bottom: auto;
+    }
+    .accessories-container .accessories-footer{
+        margin-top: 280px;
+    }
+}

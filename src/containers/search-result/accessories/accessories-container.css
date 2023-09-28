@@ -75,7 +75,6 @@
     }
     .accessories-results-container .accessories-header .filter{
         margin-bottom: -20px;
-        border: 1px solid red;
     }
     .accessories-results-container .accessories-header .filter p{
         font-size: 14px;
@@ -83,10 +82,22 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .accessories-results-container{
+        width: 696px;
+    }
+    .accessories-results-container .accessories-header{
+        margin-bottom: 10px;
+        text-align: center;
+        width: 696px;
+    }
     .accessories-results-container .result-cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 32px;
+        gap: 12px;
+        width: 696px;
+        height: 1844px;
+        
+
     
     }
 }
