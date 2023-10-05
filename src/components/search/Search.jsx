@@ -107,7 +107,7 @@ const Search = ({showResults}) => {
               <BiMap size={20} className='icon13'/>
               <input type='text' placeholder='Enter Postal Code'  />
             </div>
-            <button>View Results</button>
+            <button onClick={showResults}>View Results</button>
           
           
         </div>

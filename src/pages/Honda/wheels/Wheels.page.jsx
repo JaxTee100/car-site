@@ -32,19 +32,29 @@ const Wheels = () => {
       <div className='search-container'>
         <SearchBar showResults={showResults}/>
       </div>
-      <div className='search-results'>
-        <div className='search-image'>
+      {showResult && 
+      <div className='results'>
+        <div className='search-results'>
+          <div className='search-image'>
 
+          </div>
+          <div className='car-preview'>
+            <CarPreview />
+          </div>
+          
+          
         </div>
-        <div className='car-preview'>
-          <CarPreview />
+        <div className='wheels-cards'>
+          <WheelResults />
         </div>
-        
       </div>
-      <div className='wheels-cards'>
-        <WheelResults />
-      </div>
+
+  }
       
+      <div>
+        <Footer />
+      </div>
+
     </div>
   )
 }
